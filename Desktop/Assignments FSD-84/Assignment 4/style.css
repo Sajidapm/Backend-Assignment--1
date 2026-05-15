@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    border: 0;
+}
+
+header{
+    background:linear-gradient(blue, white);
+    color: azure;
+    position: fixed;
+    width: 98%;
+    height: 4rem;
+    display: flex;
+    padding: 10px;
+    justify-content:space-between ;
+    align-items: center;
+    border:1px solid rgb(228, 222, 222);
+    box-shadow: rgb(240, 238, 238) 0px 5px 15px;
+    
+    }
+    
+    #logo
+    {
+     text-decoration: none;
+     color: rgb(95, 19, 19);
+    }
+header ul{
+  display: flex;  
+  gap:5vw;
+  list-style: none;
+ }
+ header ul li a
+ {
+     text-decoration: none;
+     color: azure;
+
+ }
+#home
+{
+    background:white;
+    border: .5px solid rgb(231, 231, 236);
+    padding: 7vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+
+}
+
+#about
+{ 
+    background-color: white;
+    padding: 15vw;
+    font-size: large;
+    font-weight: 400;
+    display: flex;
+    border: .5px solid rgb(231, 231, 236);
+
+  
+}
+#about h2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+#skill
+{
+    background: white;
+    border: .5px solid rgb(231, 231, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 7rem;
+}
+#skill ul{
+    border-top: 1px solid rgb(214, 208, 208);
+    padding: 1rem;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.separator
+{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+
+#about img
+{
+    border: 5px solid rgb(107, 160, 221);
+    border-radius: 50%;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+#projects{
+    margin: 5px;
+    padding :100px 0px 60px 0;
+    border: .5px solid rgb(231, 231, 236);
+    
+}
+#projects h2{
+    
+    padding: 0 0 60px 30px;
+    margin:30px;
+}
+#projects ol 
+{
+    display: flex;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+        
+}
+.projectlist
+{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: .5px solid rgb(231, 231, 236);
+    padding: 10px;
+
+
+}
+.projectpic
+{
+    width: 100px;
+    height: 100px;
+}
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10vw;
+    gap: 30px;
+    border: .5px solid rgb(231, 231, 236);
+}
+.input
+{
+    width: 20vw;
+    border: 1px solid rgb(213, 218, 218);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#button
+{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(47, 47, 238); 
+    border: 1px;
+    border-radius: 10px;
+    margin: 30px;
+    }
